@@ -1,0 +1,171 @@
+.im {
+    width: 60px;
+    height: 50px;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+}
+
+li {
+    margin-left: 20px;
+}
+
+.bg {
+    background-image: linear-gradient(rgba(54, 208, 219, 0.5), rgba(54, 208, 219, 0.5)), url(mountains.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+input {
+    width: calc(100%/3);
+}
+
+.f {
+    width: 300px;
+    display: inline;
+}
+
+.mean {
+    background-color: rgba(5, 15, 36, 0.486);
+    height: 15vh;
+}
+
+.jj {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.d {
+    width: 400px;
+    display: inline-block;
+}
+
+.dd {
+    background-color: rgba(0, 0, 255, 0.594);
+    color: aliceblue;
+}
+
+br {
+    display: none;
+}
+
+.cc {
+    margin-left: 100px;
+}
+
+@media(max-width:768px) {
+    br {
+        display: block;
+    }
+    .gg {
+        display: grid;
+    }
+    .cc {
+        margin-left: 20px;
+    }
+    .bg {
+        background-image: linear-gradient(rgba(54, 208, 219, 0.5), rgba(54, 208, 219, 0.5)), url(mountains.jpg);
+        height: 152vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .mean {
+        background-color: rgba(5, 15, 36, 0.486);
+        height: 45vh;
+    }
+    .cc {
+        transform: translateX(20px);
+    }
+    .rows {
+        transform: translateX(0);
+    }
+}
+
+.ss {
+    border: 3px solid blue;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.kk {
+    margin-left: 1px;
+}
+
+.ss h3 {
+    font-weight: bold;
+    color: blue;
+}
+
+.vv {
+    background-color: rgb(43, 83, 226);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.head {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.head h2 {
+    color: blue;
+}
+
+.vv h4 {
+    font-weight: bold;
+    color: white;
+    margin-left: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#rr {
+    width: 100%;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+}
+
+textarea {
+    height: 300px;
+    width: 100%;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: rgba(12, 12, 245, 0.692);
+    color: aliceblue;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.gg {
+    width: 100%;
+    margin-bottom: 50px
+}
+
+.mt {
+    background-color: rgba(206, 206, 229, 0.304);
+    margin-top: 40px;
+}
